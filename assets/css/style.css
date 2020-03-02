@@ -1,0 +1,101 @@
+@font-face {
+  font-family: Santio;
+  src: url("Santio_Bold.ttf");
+}
+@font-face {
+  font-family: Santio;
+  font-weight: bold;
+  src: url("Santio_Bold.ttf");
+}
+
+@import url("https://fonts.googleapis.com/css?family=Mr+Dafoe|Roboto&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: santio;
+  font-size: 6vh;
+  margin-top: 0%;
+}
+
+.parallax {
+  background-image: url("../img/cleo-topper.jpg");
+
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.one,
+.two,
+.three,
+.threeA,
+.four {
+  background: none;
+}
+
+.one h1 {
+  color: white;
+  margin-left: 8vw;
+  padding-top: 8vw;
+}
+
+.italic {
+  color: #e7bc0e;
+  font-family: "Mr Dafoe";
+  margin-left: 8vw;
+}
+
+.two {
+  width: 70vw;
+  margin-top: 50vh;
+}
+
+p {
+  font-family: santio;
+  color: #6bc1a3;
+  margin-left: 20vw;
+  line-height: 4vh;
+  font-size: 2.7vh;
+}
+
+.white {
+  color: white;
+}
+.yellow {
+  color: #e7bc0e;
+}
+
+.three .img {
+  width: 10vw;
+  height: 10vw;
+  background-image: url(../img/stat-workers-color.svg);
+  margin-left: 30vw;
+}
+
+.three {
+  margin-top: 50vh;
+}
+
+.three * {
+  margin-left: 30vw;
+  color: white;
+}
+
+.three h1 {
+  margin-top: 5vh;
+  margin-bottom: 0;
+  color: #e7bc0e;
+  font-size: 8vh;
+}
+
+.three p {
+  margin-top: 0%;
+}
