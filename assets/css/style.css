@@ -2,22 +2,21 @@
 
 @font-face {
   font-family: Santio;
-  src: url("Santio_Bold.ttf");
-}
-@font-face {
-  font-family: Santio;
-  font-weight: bold;
-  src: url("Santio_Bold.ttf");
+  src: url("../font/Santio_Bold.ttf");
 }
 
+<<<<<<< HEAD
 html,
 body {
+=======
+body, html {
+>>>>>>> d2b3d4b62bd6d26e6fa5c70c8926bb6c8d152c7f
   margin: 0;
   padding: 0;
 }
 
-h1 {
-  font-family: santio;
+h1 { 
+  font-family: "Santio"; 
   font-size: 6vh;
   margin-top: 0%;
 }
@@ -41,47 +40,81 @@ h1 {
   background: none;
 }
 
-.one h1 {
+.one h1, .six h1 {
   color: white;
   margin-left: 8vw;
-  padding-top: 8vw;
+  font-size: 8vh;
 }
 
-.italic {
+.one .italic {
   color: #e7bc0e;
   font-family: "Mr Dafoe";
   margin-left: 8vw;
+  font-size: 2.5vh;
+ }
+
+.action {
+  margin-left: 80vw;
+  margin-bottom: 3vh;
+  font-family: roboto;
+  color: white;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: #e7bc0e;
+  font-size: smaller;
+  letter-spacing: 0.3vh;
+  
+
 }
 
-.two {
+.two  {
   width: 70vw;
-  margin-top: 50vh;
+  margin-top: 30vh;
 }
 
 p {
   font-family: santio;
   color: #6bc1a3;
   margin-left: 20vw;
-  line-height: 4vh;
-  font-size: 2.7vh;
+  line-height: 5vh;
+  font-size: 3vh;
 }
 
 .white {
   color: white;
 }
-.yellow {
+ p .yellow {
   color: #e7bc0e;
+margin:0;
 }
 
-.three .img {
+.three .img1, .img2, .img3 {
   width: 10vw;
   height: 10vw;
-  background-image: url(../img/stat-workers-color.svg);
   margin-left: 30vw;
 }
 
+.three .img1 {
+  background-image: url(../img/stat-workers-color.svg);
+  margin-bottom: 3vh;
+  
+}
+
+.three .img2 {
+  background-image: url(../img/stat-pay-color.svg);
+  margin-top: 15vh;
+  margin-bottom: 3vh;
+}
+
+.three .img3 {
+  background-image: url(../img/stat-health-color.svg);
+  margin-top: 15vh;
+  margin-bottom: 3vh;
+}
+
+
 .three {
-  margin-top: 50vh;
+  margin-top: 40vh;
 }
 
 .three * {
@@ -90,7 +123,7 @@ p {
 }
 
 .three h1 {
-  margin-top: 5vh;
+  margin-top: 0;
   margin-bottom: 0;
   color: #e7bc0e;
   font-size: 8vh;
@@ -98,4 +131,25 @@ p {
 
 .three p {
   margin-top: 0%;
+  margin-bottom: 0;
+}
+
+.four{
+  width: 70vw;
+  height: 50vh;
+  margin-left: 18vw;
+  margin-top: 10vh;
+  margin-bottom: 8vh;
+}
+.four p {
+  color: #7eb8e1;
+}
+
+.six {
+  background-color: black;
+  height: 70vh;
+}
+
+.six h1 {
+  padding-top: 20vh;
 }
