@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Mr+Dafoe|Roboto&display=swap");
+
 @font-face {
   font-family: Santio;
   src: url("Santio_Bold.ttf");
@@ -7,8 +9,6 @@
   font-weight: bold;
   src: url("Santio_Bold.ttf");
 }
-
-@import url("https://fonts.googleapis.com/css?family=Mr+Dafoe|Roboto&display=swap");
 
 html,
 body {
