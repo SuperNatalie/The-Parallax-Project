@@ -5,12 +5,7 @@
   src: url("../font/Santio_Bold.ttf");
 }
 
-<<<<<<< HEAD
-html,
-body {
-=======
 body, html {
->>>>>>> d2b3d4b62bd6d26e6fa5c70c8926bb6c8d152c7f
   margin: 0;
   padding: 0;
 }
