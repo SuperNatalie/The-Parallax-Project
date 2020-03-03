@@ -142,9 +142,31 @@ margin:0;
 
 .six {
   background-color: black;
-  height: 70vh;
+  height: 77vh;
 }
 
 .six h1 {
   padding-top: 20vh;
 }
+
+.six .button {
+  color: white;
+  font-family: roboto;
+  font-size: 2vh;
+  width: 7vw;
+  height: 3vh;
+  border: white 2px solid;
+  text-align: center;
+  margin-left: 8vw;
+  display: inline-block;
+  padding-top: 0.5vh;
+ }
+
+ .six .footer {
+   color: white;
+   font-family: roboto;
+   text-align: center;
+   width: 100%;
+   margin-top: 10vh;
+ }
+
