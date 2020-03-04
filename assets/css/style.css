@@ -9,6 +9,7 @@ body,
 html {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 h1 {
@@ -170,6 +171,7 @@ h1 .blue {
 .six {
   background-color: black;
   height: 70vh;
+  position: relative;
 }
 
 .six h1 {
@@ -199,4 +201,28 @@ h1 .blue {
   font-family: roboto;
   text-align: center;
   width: 100%;
+  position: absolute;
+  bottom: 1vh;
+}
+
+.blue2 {
+  color: #6bc1a3;
+}
+
+.italic a {
+  text-decoration: none;
+  color: #e7bc0e;
+}
+
+.italic a:hover {
+  transform: scale(1.05);
+}
+
+.footer a {
+  text-decoration: none;
+  color: #6bc1a3;
+}
+
+.six a:hover {
+  transform: scale(2.05);
 }
