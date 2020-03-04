@@ -222,7 +222,3 @@ h1 .blue {
   text-decoration: none;
   color: #6bc1a3;
 }
-
-.six a:hover {
-  transform: scale(2.05);
-}
