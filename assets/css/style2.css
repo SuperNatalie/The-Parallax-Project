@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css?family=Mr+Dafoe|Roboto&display=swap");
+
+@font-face {
+  font-family: Santio;
+  src: url("../font/Santio_Bold.ttf");
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+.bg-img {
+  background-image: url(../img/cleo-topper.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+ 
+}
+
+h2 {
+  color: white;
+  margin-left: 5vw;
+  font-size: 8vh;
+}
+
+h1 {
+  font-size: 10vh;
+  margin: 0;
+}
+
+p, h1, h2 {
+  font-family: "Santio";
+}
+
+ header b {
+   color:  #e7bc0e;
+   margin-left: 5vw;
+   font-family: "Mr Dafoe";
+   font-size: smaller;
+ }
+
+ .imgtext p {
+  font-family: "roboto";
+  color: white;
+  font-size: smaller;
+  text-align: right;
+ }
+
+.blue p, .green p {
+  color:#7eb8e1;
+  line-height: 5vh;
+  width: 50vw;
+  margin-left: 32vw;
+  margin-top: 10vh;
+} 
+
+.green p {
+  color:#6bc1a3;
+  margin-left: 10vw;
+  margin-top: 30vh;
+
+} 
+
+article b, section b {
+  color: white;
+  background-color: grey;
+}
+
+section {
+  margin-left: 30vw;
+  color: white;
+}
+
+section p {
+  margin: 0;
+}
+
+section :nth-child(2), section :nth-child(3) {
+  color: #e7bc0e;
+}
+
+section :nth-child(5), section :nth-child(6) {
+ color: #cb91b6;
+}
+
+section :nth-child(8), section :nth-child(9) {
+  color: #6bc1a3;
+ }
+ 
+section img {
+  width: 10vh;
+  margin-top: 10vh;
+  margin-bottom: 2vh;
+}
+
+.img { 
+  width: 100vw;
+  height: 100vh;
+  background-image: url(../img/see.png);
+  background-position: center;
+  background-size: cover;
+  margin: 0;
+}
+
+ .img .img2 {
+  background-image: url(../img/kid.png);
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+footer {
+  background-color: black;
+  height: 70vh;
+  padding-top: 20vh;
+  color: white;
+  width: 100vw;
+  position: relative;
+}
+
+button {
+  margin-left: 5vw;
+  background-color: black;
+  box-shadow: 3px 3px 6px white;
+}
+
+ footer button p{
+  font-family: "roboto";
+  color: white;
+  font-size: 2em;
+  margin: 4px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
+
+#bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-left:auto;
+  margin-right: auto; 
+  width: 300px;
+
+ 
+}
+footer p {
+  font-family: "roboto";
+  color: white;
+  font-size: smaller;
+ 
+}
+
+ footer p b {
+   color: teal;
+   text-decoration: none;
+
+
+ }

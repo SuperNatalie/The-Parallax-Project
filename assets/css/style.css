@@ -21,9 +21,7 @@ h1 {
 
 .parallax {
   background-image: url("../img/cleo-topper.jpg");
-
   height: 100%;
-
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -82,6 +80,7 @@ p {
 
 .white {
   color: white;
+  background-color: rgb(38, 43, 45);
 }
 p .yellow {
   color: #e7bc0e;
@@ -233,8 +232,4 @@ h1 .blue {
 .footer a {
   text-decoration: none;
   color: #6bc1a3;
-}
-
-.six a:hover {
-  transform: scale(2.05);
 }
