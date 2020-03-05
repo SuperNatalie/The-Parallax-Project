@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css?family=Mr+Dafoe|Roboto&display=swap");
+
+@font-face {
+  font-family: Santio;
+  src: url("../font/Santio_Bold.ttf");
+}
+
+.bg-img {
+  background-image: url(../img/cleo-topper.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  height: 40vh;
+}
